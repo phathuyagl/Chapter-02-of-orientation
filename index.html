@@ -1,0 +1,43 @@
+<%- include('_layouts/layout', { title: 'Home page' }); -%>
+
+  <!-- @meta -->
+  <meta name="description" content="Home page">
+  <!-- @@meta -->
+
+  <!-- @content -->
+  <main class="home">
+    <div class="l-container">
+      <%- include('_components/breadcrumb') -%>
+
+        <%- include('_components/banner') -%>
+          <%- include('_components/news') -%>
+    </div>
+    <section class="p-feature c-feature">
+      <div class="l-container">
+        <div class="c-feature__title u-titlesection u-titlesection--red">
+          <h1>Feature</h1>
+        </div>
+        <%- include('_components/feature') -%>
+          <button class="u-btn u-btn--right u-btn--red">View more</button>
+      </div>
+    </section>
+    <div class="l-container">
+      <%- include('_components/blog') -%>
+    </div>
+    <div class="u-linetop u-linebottom">
+      <div class="l-container">
+        <div class="c-footer__breadcrumb">
+          <i class="fas fa-home home"></i>
+          <span>HOME</span>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- @@content -->
+
+  <!-- @script -->
+  <script>
+    console.log("home page");
+  </script>
+  <!-- @@script -->

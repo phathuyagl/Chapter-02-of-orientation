@@ -1,0 +1,34 @@
+<% if (typeof linklists !='undefined' ) { %>
+    <% linklists.main && linklists.main.forEach(link=> { %>
+        <% if (link.data) { %>
+            <section class="p-news c-news">
+                <div class="c-news__title u-titlesection u-titlesection--yellow">
+                    <h1>News</h1>
+                </div>
+                <div class="c-news__items">
+                    <% link.data.newsItem.forEach(item=> { %>
+                        <div class="c-news__item">
+                            <a href="#" class="c-news__image u-imgdefaut u-imgdefaut--l">
+                                <div class="c-news__tag u-tagitem u-tagitem--bg<%= item.tagcolor %>">
+                                    <%= item.tag %>
+                                </div>
+                            </a>
+                            <div class="c-news__content">
+                                <h4 class="c-news__titlecontent">
+                                    <%= item.title %>
+                                </h4>
+                                <p class="c-news__desc">
+                                    <%= item.desc %>
+                                </p>
+                                <button class="c-news__btn">
+                                    <%= item.link %>            
+                                </button>
+                            </div>
+                        </div>
+                        <% }) %>
+                </div>
+                <button class="c-news__more u-btn u-btn--xl u-btn--center u-btn--yellow">View more</button>
+            </section>
+            <% } %>
+                <% }) %>
+                    <% } %>

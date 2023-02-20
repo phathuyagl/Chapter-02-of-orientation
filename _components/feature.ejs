@@ -1,0 +1,22 @@
+<% if (typeof linklists !='undefined' ) { %>
+    <% linklists.main && linklists.main.forEach(link=> { %>
+      <% if (link.data) { %>
+        
+          <div class="c-items">
+            <% link.data.featureItem.forEach(item=> { %>
+              <div class="c-items__item">
+                <a href="#" class="c-items__image u-imgdefaut u-imgdefaut--md"></a>
+                <div class="c-items__tag u-tagitem u-tagitem--bg<%= item.tagcolor %>">
+                  <%= item.tag %>
+                </div>
+                <div class="c-items__content">
+                  <p class="c-items__desc">
+                    <%= item.desc %>
+                  </p>
+                </div>
+              </div>
+              <% }) %>
+          </div>
+        <% } %>
+          <% }) %>
+            <% } %>

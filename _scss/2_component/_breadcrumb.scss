@@ -1,0 +1,23 @@
+.c-breadcrumb {
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+    margin-bottom: 38px;
+    font-size: 1.4rem;
+    line-height: 20px;
+    font-weight: 700;
+
+    span:nth-of-type(1) {
+        text-transform: uppercase;
+    }
+
+    i.home {
+        margin-right: 2px;
+    }
+
+    i.arrowright {
+        margin-left: 11px;
+        margin-right: 10px;
+        font-size: 1rem;        
+    }
+}

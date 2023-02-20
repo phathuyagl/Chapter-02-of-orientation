@@ -1,0 +1,146 @@
+{
+  "linklists": {
+    "main": [
+      {
+        "title": "Home",
+        "url": "/index.html",
+        "data": {
+          "newsItem": [
+            {
+              "tag": "Category 2",
+              "title": "Title title title title title title title title",
+              "desc": "text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text... ",
+              "link": "link1",
+              "tagcolor": "green"
+            },
+            {
+              "tag": "Category 1",
+              "title": "Title title title title",
+              "desc": "text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text",
+              "link": "link2",
+              "tagcolor": "yellow"
+            },
+            {
+              "tag": "Category 3",
+              "title": "Title title title title title title",
+              "desc": "text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text ",
+              "link": "link3",
+              "tagcolor": "pink"
+            },
+            {
+              "tag": "Category 2",
+              "title": "Title title title title title",
+              "desc": "text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text",
+              "link": "link4",
+              "tagcolor": "green"
+            }
+          ],
+          "featureItem": [
+            {
+              "tag": "Text text",
+              "desc": "Title title title title title title title title title title title title title title title title title title title title title title title title title title title title",
+              "tagcolor": "green"
+            },
+            {
+              "tag": "Text text",
+              "desc": "Title title title title title title title title title title title title title title title title title title title title title title",
+              "tagcolor": "green"
+            },
+            {
+              "tag": "Text",
+              "desc": "Title title title title title title title title title title title title title title title title title title title title title title",
+              "tagcolor": "pink"
+            },
+            {
+              "tag": "Text text",
+              "desc": "Title title title title title title title title title title title title title title title title title title ",
+              "tagcolor": "green"
+            },
+            {
+              "tag": "Text text text",
+              "desc": "Title title title title title title title title title title title title title title title title title title title title title title title title title",
+              "tagcolor": "yellow"
+            },
+            {
+              "tag": "Text text",
+              "desc": "Title title title title title title title title title title title title title title title",
+              "tagcolor": "green"
+            }
+          ],
+          "blogItem": [
+            {
+              "tag": "Text text",
+              "desc": "Title title title title title title title title title title title title title title title title title title title title title title title title title title title title",
+              "tagcolor": "green"
+            },
+            {
+              "tag": "Text",
+              "desc": "Title title title title title title title title title title title title title title title title title title title title title title",
+              "tagcolor": "pink"
+            },
+            {
+              "tag": "Text text",
+              "desc": "Title title title title title title title title title title title title title title title title title title title title title title title title title title title title",
+              "tagcolor": "green"
+            },
+            {
+              "tag": "Text",
+              "desc": "Title title title title title title title title title title title title title title title title title title title title title title",
+              "tagcolor": "pink"
+            }
+          ]
+        }
+      },
+      {
+        "title": "link 1",
+        "url": "/link1.html",
+        "dataLink1": [
+          {
+            "tag": "Text text text",
+            "desc": "Title title title title title title title title title title title title title",
+            "tagcolor": "yellow"
+          },
+          {
+            "tag": "Text",
+            "desc": "Title title title title title title title title title title title title title title title title title title title title",
+            "tagcolor": "pink"
+          },
+          {
+            "tag": "Text text",
+            "desc": "Title title title title title title title title title title title title title title title title title",
+            "tagcolor": "green"
+          },
+          {
+            "tag": "Text",
+            "desc": "Title title title title title title title title title title title title title title title title title title title title ",
+            "tagcolor": "pink"
+          },
+          {
+            "tag": "Text text",
+            "desc": "Title title title title title title title title title title title title title",
+            "tagcolor": "green"
+          },
+          {
+            "tag": "Text",
+            "desc": "Title title title title title title title title title title title title title title title title title title title title",
+            "tagcolor": "pink"
+          },
+          {
+            "tag": "Text text",
+            "desc": "Title title title title title title title title title title title title title title title title title",
+            "tagcolor": "green"
+          },
+          {
+            "tag": "Text",
+            "desc": "Title title title title title title title title title title title title title title title title title title title title",
+            "tagcolor": "pink"
+          }
+        ]
+      },
+      {
+        "title": "link 2",
+        "url": "/link2.html"
+      }
+    ]
+  } 
+}

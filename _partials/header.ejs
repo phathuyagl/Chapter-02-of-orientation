@@ -1,0 +1,18 @@
+<div class="l-container">
+  <header class="c-header">
+    <div class="c-header__top">
+      <div class="c-header__logo">
+        250 x 50
+      </div>
+      <div class="c-header__navbar">
+        <ul class="c-header__list">
+          <% linklists.main.forEach(item=> { %>
+            <li class="c-header__item">
+              <a <% if (item.current) { %>class="is-active"<% } %> href=<%= item.url %>><%= item.title %></a>
+            </li>
+            <% }) %>
+        </ul>
+      </div>
+    </div>
+  </header>
+</div>
