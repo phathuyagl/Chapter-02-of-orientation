@@ -8,7 +8,7 @@
     <title>
       <%= (typeof title != "undefined" ? title : "Page title") %>
     </title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/_public/assets/fontawesome-free-5.15.4-web/css/all.min.css">
     {{ meta }}
     <script type="module" src="/_scss/style.js"></script>
     {{ head }}
@@ -20,6 +20,6 @@
   
       <%- include('_partials/footer'); -%>  
     {{ script }}
-    <script src="/assets/js/main.js"></script>
+    <script src="/_public/assets/js/main.js"></script>
   </body>
 </html>

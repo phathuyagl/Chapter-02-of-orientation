@@ -1,0 +1,30 @@
+.c-titlesection {
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-size: 1.6rem;
+    line-height: 1.42;
+    font-weight: 700;
+    margin-bottom: 30px;
+    word-break: break-all;
+
+    &--yellow {
+        border: 1px solid #ffd800;
+        border-left: 7px solid #ffd800;
+        background: #fff9da;
+    }
+    
+    &--blue {
+        border: 1px solid #6dcff6;
+        border-left: 7px solid #6dcff6;
+        background: #ebebeb;
+    }
+    
+    &--red {
+        border: 1px solid #f68e56;
+        border-left: 7px solid #f68e56;
+        background: #fff2f2;
+    }
+}

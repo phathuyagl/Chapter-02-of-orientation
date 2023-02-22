@@ -1,0 +1,120 @@
+.c-boxs {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 48px;
+    color: #222;
+    gap: 30px;
+
+    .c-boxs__item {
+        width: 100%;
+        display: flex;
+        position: relative;
+
+        &:hover {
+            cursor: pointer;
+            opacity: 0.7;
+        }
+    }
+
+    .c-boxs__image {
+        margin-right: 40px;
+    }
+
+    .c-boxs__image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .c-boxs__tag {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .c-boxs__content {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+
+    .c-boxs__title {
+        margin-bottom: 30px;
+    }
+
+    .c-boxs__titlecontent {
+        font-size: 1.6rem;
+        font-weight: 700;
+        margin-bottom: 15px;
+        line-height: 0.71;
+        margin-top: 2px;
+    }
+
+    .c-boxs__desc {
+        width: 100%;
+        font-size: 1.4rem;
+        font-weight: 500;
+        line-height: 1.42;
+    }
+
+    .c-boxs__btn {
+        width: 150px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: auto;
+        margin-left: auto;
+        background-color: #afafaf;
+        color: #fff;
+        outline: none;
+        border-radius: 7px;
+        font-size: 1.5rem;
+        line-height: 1.44;
+        text-transform: capitalize;
+        font-weight: 700;
+        border: 0;
+    }
+
+    
+}
+
+.c-boxs.c-boxs--2item,
+.c-boxs.c-boxs--3item,
+.c-boxs.c-boxs--4item {
+    display: grid;
+    gap: 45px 50px;
+
+    .c-boxs__image {
+        margin-right: 0;
+    }
+
+    .c-boxs__item {
+        flex-direction: column;
+    } 
+
+    .c-boxs__tag {
+        position: relative;
+    }
+
+    .c-boxs__tag {
+        margin-top: 15px;
+        margin-bottom: 17px;
+        font-size: 1.4rem;
+    }
+} 
+
+.c-boxs.c-boxs--2item {
+    grid-template-columns: 1fr 1fr;
+}
+
+.c-boxs.c-boxs--3item {
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.c-boxs.c-boxs--4item {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}

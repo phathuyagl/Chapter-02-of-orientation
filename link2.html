@@ -1,20 +1,24 @@
 <%- include('_layouts/layout', { title: 'Link2 page' }); -%>
 
+<!-- @meta -->
+<meta name="description" content="Link2 page">
+<!-- @@meta -->
+
     <!-- @content -->
     <main class="link2">
         <div class="l-container">
             <div class="c-breadcrumb u-linetop">
                 <i class="fas fa-home home home"></i>
-                <span class="u-linebottom">HOME</span>
+                <a href="/" class="c-breadcrumb__home">HOME</a>
                 <i class="fas fa-angle-right arrowright"></i>
-                <span>Link2</span>
+                <span class="c-breadcrumb__page">Link2</span>
             </div>
             <div class="c-btnlink2">
-                <h1>LINK 2</h1>
+                <h2>LINK 2</h2>
             </div>
             <section class="c-title1">
-                <div class="u-titlesection u-titlesection--blue">
-                    <h1>Title 1</h1>
+                <div class="c-titlesection c-titlesection--blue">
+                    <h2>Title 1</h2>
                 </div>
                 <p class="c-title1__desc u-text">
                     Text text text text text text text text <span class="u-text--red">text text text text text text text
@@ -57,8 +61,8 @@
             </section>
 
             <section class="c-title2">
-                <div class="u-titlesection u-titlesection--red">
-                    <h1>Title 2</h1>
+                <div class="c-titlesection c-titlesection--red">
+                    <h2>Title 2</h2>
                 </div>
                 <p class="c-title2__desc u-text">
                     Text text text text text text text text text text text text text text text text text text text text
@@ -131,7 +135,7 @@
                             text text text text text text text.</p>
                     </div>
                     <table class="c-comment__table">
-                        <tr class="haha">
+                        <tr class="c-comment__row1table">
                             <th></th>
                             <th>Title</th>
                             <th>Title</th>
@@ -156,33 +160,6 @@
                             <td>Text text text text text text</td>
                         </tr>
                     </table>
-                    <!-- <div class="c-comment__table">
-                        <div class="row">
-                            <div></div>
-                            <div>title</div>
-                            <div>title</div>
-                            <div>title</div>
-                        </div>
-                        <div class="row">
-                            <div>title</div>
-                            <div>text text text text</div>
-                            <div>text text text text text</div>
-                            <div>text text text text text text</div>
-                        </div>
-                        <div class="row">
-                            <div>title</div>
-                            <div>text text text text</div>
-                            <div>text text text text text</div>
-                            <div>text text text text text text</div>
-
-                        </div>
-                        <div class="row">
-                            <div>title</div>
-                            <div>text text text text</div>
-                            <div>text text text text text</div>
-                            <div>text text tex text text textt</div>
-                        </div>
-                    </div> -->
                 </div>
             </section>
         </div>
@@ -190,9 +167,9 @@
             <div class="l-container">
                 <div class="c-footer__breadcrumb">
                     <i class="fas fa-home home"></i>
-                    <span class="u-textunderline">HOME</span>
+                    <a href="/" class="c-breadcrumb__home">HOME</a>
                     <i class="fas fa-angle-right arrowright"></i>
-                    <span>Link2</span>
+                    <span class="c-breadcrumb__page">Link2</span>
                 </div>
             </div>
         </div>

@@ -1,0 +1,105 @@
+<%- include('_layouts/layout', { title: 'test page' }); -%>
+
+    <!-- @meta -->
+    <meta name="description" content="Test page">
+    <!-- @@meta -->
+
+    <!-- @content -->
+    <main class="test">
+        <div class="l-container">
+
+
+            <% if (typeof linklists !='undefined' ) { %>
+                <% linklists.main && linklists.main.forEach(link=> { %>
+                    <% if (link.data) { %>
+
+                        <section class="p-news c-news">
+                            <div class="c-news__title c-titlesection c-titlesection--yellow">
+                                <h2>News</h2>
+                            </div>
+                            <div class="c-boxs">
+                                <% link.data.newsItem.forEach(item=> { %>
+                                    <div class="c-boxs__item">
+                                        <div class="c-boxs__image">
+                                            <img src="/_public/assets/img/item.png" alt="c-boxs">
+                                            <label class="c-boxs__tag c-tagitem c-tagitem--bg<%= item.tagcolor %>">
+                                                <%= item.tag %>
+                                            </label>
+                                        </div>
+                                        <div class="c-boxs__content">
+                                            <h4 class="c-boxs__titlecontent">
+                                                <%= item.title %>
+                                            </h4>
+                                            <p class="c-boxs__desc">
+                                                <%= item.desc %>
+                                            </p>
+                                            <a href="#" class="c-boxs__btn">
+                                                <%= item.link %>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <% }) %>
+                            </div>
+                            <button class="c-news__more  c-btn--xl c-btn c-btn--yellow">View more</button>
+                        </section>
+
+                        <section class="p-feature c-feature">
+                            <div class="c-feature__title c-titlesection c-titlesection--red">
+                                <h2>Feature</h2>
+                            </div>
+                            <div class="c-boxs c-boxs--3item">
+                                <% link.data.featureItem.forEach(item=> { %>
+                                    <a href="#" class="c-boxs__item">
+                                        <div class="c-boxs__image">
+                                            <img src="/_public/assets/img/itemfeature.png" alt="c-feature">
+                                        </div>
+                                        <label class="c-boxs__tag c-tagitem c-tagitem--bg<%= item.tagcolor %>">
+                                            <%= item.tag %>
+                                        </label>
+                                        <div class="c-boxs__content">
+                                            <p class="c-boxs__desc">
+                                                <%= item.desc %>
+                                            </p>
+                                        </div>
+                                    </a>
+                                    <% }) %>
+                            </div>
+                            <div class="c-feature__more">
+                                <button class=" c-btn--xl c-btn c-btn--red">View more</button>
+                            </div>
+                        </section>
+
+
+                        <section class="l-blog c-blog">
+                            <div class="c-blog__title c-titlesection c-titlesection--blue">
+                                <h2>Blog</h2>
+                            </div>
+                            <div class="c-boxs c-boxs--2item">
+                                <% link.data.blogItem.forEach(item=> { %>
+                                    <a href="#" class="c-boxs__item">
+                                        <div class="c-boxs__image">
+                                            <img src="/_public/assets/img/itemblog.png" alt="c-blog">
+                                        </div>
+                                        <label class="c-boxs__tag c-tagitem c-tagitem--bg<%= item.tagcolor %>">
+                                            <%= item.tag %>
+                                        </label>
+                                        <div class="c-boxs__content">
+                                            <p class="c-boxs__desc">
+                                                <%= item.desc %>
+                                            </p>
+                                        </div>
+                                    </a>
+                                    <% }) %>
+                            </div>
+                            <button class="c-blog__more  c-btn--full c-btn c-btn--blue">View more</button>
+                        </section>
+
+
+
+                        <% } %>
+                            <% }) %>
+                                <% } %>
+
+        </div>
+    </main>
+    <!-- @@content -->

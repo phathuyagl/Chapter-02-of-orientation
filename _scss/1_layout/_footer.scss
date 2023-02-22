@@ -1,6 +1,6 @@
 .c-footer {
     .c-footer__inner {
-        padding-top: 38px;
+        padding-top: 37px;
         background-color: #fafafa;
         padding-bottom: 34px;
     }
@@ -15,7 +15,7 @@
         margin-bottom: 4px;
         font-weight: 700;
         font-size: 1.4rem;
-        line-height: 10px;
+        line-height: 0.71;
     }
 
     .c-footer__box {
@@ -34,25 +34,25 @@
         align-items: center;
         margin-bottom: 0.3px;
         font-size: 1.4rem;
-        line-height: 20px;
+        line-height: 1.42;
 
         i { 
-            font-size: 6px;
+            font-size: 0.6rem;
             margin-right: 6px;
         }
 
         a {
-            font-size: 14px;
-            line-height: 20px;
+            font-size: 1.4rem;
+            line-height: 1.42;
         }
     }
 
     .c-footer__by {
-        font-size: 12px;
-        line-height: 20px;
+        font-size: 1.2rem;
+        line-height: 1.42;
         font-weight: 500;
         padding: 20px 0;
-        padding-top: 16px;
+        padding-top: 19px;
         text-align: center;
     }
 }
@@ -61,8 +61,12 @@
 .c-footer__breadcrumb {
     padding: 6px 0;
     margin-left: -1px;
-    font-size: 14px;
+    font-size: 1.4rem;
     padding-top: 10px;
+
+    a {
+        text-decoration: underline;
+    }
 
     i.arrowright {
         margin: 0 10px;

@@ -1,0 +1,23 @@
+
+.c-tagitem {
+    width: fit-content;
+    padding: 0 21.5px;
+    height: 29px;
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    line-height: 1.42;
+    font-weight: 500;
+
+    &--bggreen {
+        background-color: #a3d39c;
+    }
+
+    &--bgyellow {
+        background-color: #fff799;
+    }
+
+    &--bgpink {
+        background-color: #ffdfdf;
+    }
+}

@@ -1,0 +1,23 @@
+.c-btn {
+    width: 300px;
+    height: 65px;
+    color: #fff;
+    font-size: 1.8rem;
+    line-height: 1.42;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 2px solid #000;
+    text-transform: uppercase;
+
+    &--yellow {
+        background: #ffd800;
+    }
+
+    &--red {
+        background-color: #f68e56;
+    }
+
+    &--blue {
+        background-color: #6dcff6;
+    }
+}
