@@ -9,7 +9,7 @@
         <div class="l-container">
             <div class="c-breadcrumb u-linetop">
                 <i class="fas fa-home home home"></i>
-                <a href="/" class="c-breadcrumb__home">HOME</a>
+                <a href="../" class="c-breadcrumb__home">HOME</a>
                 <i class="fas fa-angle-right arrowright"></i>
                 <span class="c-breadcrumb__page">Link1</span>
             </div>
@@ -42,11 +42,9 @@
                                 <% link.data.featureItem.forEach(item=> { %>
                                     <a href="#" class="c-boxs__item">
                                         <div class="c-boxs__image">
-                                            <img src="/_public/assets/img/itemfeature.png" alt="c-feature">
+                                            <img src="./assets/img/itemfeature.png" alt="<%= item.desc %>">
                                         </div>
-                                        <label class="c-boxs__tag c-tagitem c-tagitem--bg<%= item.tagcolor %>">
-                                            <%= item.tag %>
-                                        </label>
+                                        <span class="c-boxs__tag c-tagitem c-tagitem--bg<%= item.tagcolor %>"> <%= item.tag %> </span>
                                         <div class="c-boxs__content">
                                             <p class="c-boxs__desc">
                                                 <%= item.desc %>
@@ -69,11 +67,9 @@
                                 <% link.dataLink1.forEach(item=> { %>
                                     <a href="#" class="c-boxs__item">
                                         <div class="c-boxs__image">
-                                            <img src="/_public/assets/img/itemAnchorLink2.png" alt="c-anchor link 2">
+                                            <img src="./assets/img/itemAnchorLink2.png" alt="<%= item.desc %>">
                                         </div>
-                                        <label class="c-boxs__tag c-tagitem c-tagitem--bg<%= item.tagcolor %>">
-                                            <%= item.tag %>
-                                        </label>
+                                        <span class="c-boxs__tag c-tagitem c-tagitem--bg<%= item.tagcolor %>"> <%= item.tag %> </span>
                                         <div class="c-boxs__content">
                                             <p class="c-boxs__desc">
                                                 <%= item.desc %>
@@ -158,7 +154,7 @@
             <div class="l-container">
                 <div class="c-footer__breadcrumb">
                     <i class="fas fa-home home"></i>
-                    <a href="/" class="c-breadcrumb__home">HOME</a>
+                    <a href="../" class="c-breadcrumb__home">HOME</a>
                     <i class="fas fa-angle-right arrowright2"></i>
                     <span class="c-breadcrumb__page">Link1</span>
                 </div>

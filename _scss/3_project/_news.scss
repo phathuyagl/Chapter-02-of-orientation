@@ -8,4 +8,12 @@
     .c-boxs {
         margin-bottom: 61px;
     }
+
+    .c-boxs__item:hover {
+        opacity: 1;
+    }
+
+    .c-boxs__btn:hover {
+        opacity: 0.7;
+    }
 }

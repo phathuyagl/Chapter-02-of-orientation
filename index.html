@@ -21,21 +21,13 @@
                     <% link.data.newsItem.forEach(item=> { %>
                       <div class="c-boxs__item">
                         <div class="c-boxs__image">
-                          <img src="/_public/assets/img/item.png" alt="c-boxs">
-                          <label class="c-boxs__tag c-tagitem c-tagitem--bg<%= item.tagcolor %>">
-                            <%= item.tag %>
-                          </label>
+                          <img src="./assets/img/item.png" alt="<%= item.title %>">
+                          <label class="c-boxs__tag c-tagitem c-tagitem--bg<%= item.tagcolor %>"> <%= item.tag %> </label>
                         </div>
                         <div class="c-boxs__content">
-                          <h4 class="c-boxs__titlecontent">
-                            <%= item.title %>
-                          </h4>
-                          <p class="c-boxs__desc">
-                            <%= item.desc %>
-                          </p>
-                          <a href="#" class="c-boxs__btn">
-                            <%= item.link %>
-                          </a>
+                          <h4 class="c-boxs__titlecontent"><%= item.title %></h4>
+                          <p class="c-boxs__desc"><%= item.desc %></p>
+                          <a href="#" class="c-boxs__btn"><%= item.link %></a>
                         </div>
                       </div>
                       <% }) %>
@@ -53,11 +45,9 @@
                 <% link.data.featureItem.forEach(item=> { %>
                   <a href="#" class="c-boxs__item">
                     <div class="c-boxs__image">
-                      <img src="/_public/assets/img/itemfeature.png" alt="c-feature">
+                      <img src="./assets/img/itemfeature.png" alt="<%= item.desc %>">
                     </div>
-                    <label class="c-boxs__tag c-tagitem c-tagitem--bg<%= item.tagcolor %>">
-                      <%= item.tag %>
-                    </label>
+                    <span class="c-boxs__tag c-tagitem c-tagitem--bg<%= item.tagcolor %>"> <%= item.tag %> </span>
                     <div class="c-boxs__content">
                       <p class="c-boxs__desc">
                         <%= item.desc %>
@@ -81,11 +71,9 @@
                 <% link.data.blogItem.forEach(item=> { %>
                   <a href="#" class="c-boxs__item">
                     <div class="c-boxs__image">
-                      <img src="/_public/assets/img/itemblog.png" alt="c-blog">
+                      <img src="./assets/img/itemblog.png" alt="<%= item.desc %>">
                     </div>
-                    <label class="c-boxs__tag c-tagitem c-tagitem--bg<%= item.tagcolor %>">
-                      <%= item.tag %>
-                    </label>
+                    <span class="c-boxs__tag c-tagitem c-tagitem--bg<%= item.tagcolor %>"><%= item.tag %></span>
                     <div class="c-boxs__content">
                       <p class="c-boxs__desc">
                         <%= item.desc %>

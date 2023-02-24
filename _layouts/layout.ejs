@@ -8,9 +8,9 @@
     <title>
       <%= (typeof title != "undefined" ? title : "Page title") %>
     </title>
-    <link rel="stylesheet" href="/_public/assets/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/fontawesome-free-5.15.4-web/css/all.min.css">
     {{ meta }}
-    <script type="module" src="/_scss/style.js"></script>
+    <script type="module" src="../_scss/style.js"></script>
     {{ head }}
   </head>
   <body>
@@ -20,6 +20,6 @@
   
       <%- include('_partials/footer'); -%>  
     {{ script }}
-    <script src="/_public/assets/js/main.js"></script>
+    <script src="./assets/js/main.js"></script>
   </body>
 </html>
